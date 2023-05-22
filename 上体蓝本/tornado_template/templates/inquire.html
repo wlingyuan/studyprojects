@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>蓝本分数查询</title>
+    <style>
+    * {
+            margin: 0;
+            padding: 0;
+        }
+        html {
+            height: 100%;
+        }
+        body {
+            height: 100%;
+               background:url("../static/image/微信图片_20230313195805.png") center ;
+        }
+        .container {
+            height: 100%;
+
+        }
+        .login-wrapper {
+            background-color: rgba(255,255,255,0.4) ;
+            width: 358px;
+            height: 588px;
+            border-radius: 15px;
+            padding: 0 50px;
+            position: relative;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .header {
+            font-size: 38px;
+            font-weight: bold;
+            text-align: center;
+            line-height: 200px;
+        }
+        .input-item {
+            display: block;
+            width: 100%;
+            margin-bottom: 20px;
+            border-radius: 20px;
+            padding: 10px;
+            border-bottom: 1px solid rgb(128, 125, 125);
+            font-size: 15px;
+            outline: none;
+        }
+        .input-item:placeholder {
+            text-transform: uppercase;
+        }
+        .btn {
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+            margin-top: 40px;
+            background-image: linear-gradient(to right, #a6c1ee, #fbc2eb);
+            border-radius:40px;
+            color: #000;
+        }
+        .msg {
+            text-align: center;
+            line-height: 88px;
+        }
+        a {
+            text-decoration-line: none;
+            color: #abc1ee;
+        }
+    </style>
+     <script>
+        function inquire(){
+				//得到name输入框对象
+				var stunumber = document.getElementById("stunumber");
+				//判断输入框是否有内容
+				if(stunumber.value.length==0){
+					confirm("请输入学号");
+					return false;
+				}
+				var name= document.getElementById("name");
+				if(name.value.length==0){
+					confirm("请输入姓名");
+					return false;
+				}
+				var college=document.getElementById("college");
+				if(name.value.length==0){
+				    confirm("请输入学院");
+				    return false;
+				    }
+				var semester=document.getElementById("semester");
+				if(semester.value.length==0){
+				   confirm("学年");
+				   return false;
+				   }
+				return true;
+			}
+    </script>
+</head>
+<body>
+<div class="container">
+        <div class="login-wrapper">
+            <div class="header">查询蓝本分数</div>
+            <div class="form-wrapper">
+              <form method="post" action="/inquire" onsubmit="return inquire()">
+                <input type="text" name="stunumber" placeholder="学号" class="input-item" id="stunumber">
+                <input type="text" name="name" placeholder="姓名" class="input-item" id="name">
+                  <input type="text" name="college" placeholder="学院" class="input-item" list="typelist1" id="college">
+                  <datalist id="typelist1">
+　　                     <option>体育教育训练学院</option>
+　　                     <option>武术学院</option>
+                             <option>休闲学院</option>
+                             <option>传媒与艺术学院</option>
+                             <option>运动科学学院</option>
+                             <option>经济管理学院</option>
+                             <option>心理学院</option>
+                             <option>国际教育学院</option>
+                       </datalist>
+                   <input type="text" name="semester" placeholder="学年" class="input-item" list="typelist2" id="semester">
+                  <datalist id="typelist2">
+　　                     <option>第一学年</option>
+　　                     <option>第二学年</option>
+                             <option>第三学年</option>
+                             <option>第四学年</option>
+                          </datalist>
+                  <input class="btn" value="查询" type="submit">
+                 </form>
+                 </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,540 @@
+[2023-03-09 08:48:27,612]-[root]-[INFO]-[main_server.py:<module>():20 Line]:AiServer启动成功!
+[2023-03-09 08:55:21,421]-[root]-[ERROR]-[main_server.py:<module>():24 Line]:Traceback (most recent call last):
+  File "D:\tornado服务器\tornado_template\main_server.py", line 22, in <module>
+    tornado.ioloop.IOLoop.instance().start()
+  File "D:\Anaconda\lib\site-packages\tornado\platform\asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 316, in run_forever
+    super().run_forever()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 596, in run_forever
+    self._run_once()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 1854, in _run_once
+    event_list = self._selector.select(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 434, in select
+    self._poll(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 783, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+[2023-03-09 08:56:04,215]-[root]-[INFO]-[main_server.py:<module>():20 Line]:AiServer启动成功!
+[2023-03-09 08:58:34,414]-[root]-[ERROR]-[main_server.py:<module>():24 Line]:Traceback (most recent call last):
+  File "D:\tornado服务器\tornado_template\main_server.py", line 22, in <module>
+    tornado.ioloop.IOLoop.instance().start()
+  File "D:\Anaconda\lib\site-packages\tornado\platform\asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 316, in run_forever
+    super().run_forever()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 596, in run_forever
+    self._run_once()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 1854, in _run_once
+    event_list = self._selector.select(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 434, in select
+    self._poll(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 783, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+[2023-03-09 08:58:37,115]-[root]-[INFO]-[main_server.py:<module>():20 Line]:AiServer启动成功!
+[2023-03-09 09:01:24,594]-[root]-[ERROR]-[main_server.py:<module>():24 Line]:Traceback (most recent call last):
+  File "D:\tornado服务器\tornado_template\main_server.py", line 22, in <module>
+    tornado.ioloop.IOLoop.instance().start()
+  File "D:\Anaconda\lib\site-packages\tornado\platform\asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 316, in run_forever
+    super().run_forever()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 596, in run_forever
+    self._run_once()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 1854, in _run_once
+    event_list = self._selector.select(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 434, in select
+    self._poll(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 783, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+[2023-03-09 09:01:26,681]-[root]-[INFO]-[main_server.py:<module>():20 Line]:AiServer启动成功!
+[2023-03-09 09:06:05,717]-[root]-[ERROR]-[main_server.py:<module>():24 Line]:Traceback (most recent call last):
+  File "D:\tornado服务器\tornado_template\main_server.py", line 22, in <module>
+    tornado.ioloop.IOLoop.instance().start()
+  File "D:\Anaconda\lib\site-packages\tornado\platform\asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 316, in run_forever
+    super().run_forever()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 596, in run_forever
+    self._run_once()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 1854, in _run_once
+    event_list = self._selector.select(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 434, in select
+    self._poll(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 783, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+[2023-03-09 09:06:08,478]-[root]-[INFO]-[main_server.py:<module>():20 Line]:AiServer启动成功!
+[2023-03-09 09:15:49,562]-[root]-[ERROR]-[main_server.py:<module>():24 Line]:Traceback (most recent call last):
+  File "D:\tornado服务器\tornado_template\main_server.py", line 22, in <module>
+    tornado.ioloop.IOLoop.instance().start()
+  File "D:\Anaconda\lib\site-packages\tornado\platform\asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 316, in run_forever
+    super().run_forever()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 596, in run_forever
+    self._run_once()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 1854, in _run_once
+    event_list = self._selector.select(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 434, in select
+    self._poll(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 783, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+[2023-03-09 09:15:51,758]-[root]-[INFO]-[main_server.py:<module>():20 Line]:AiServer启动成功!
+[2023-03-09 09:21:01,976]-[root]-[ERROR]-[main_server.py:<module>():24 Line]:Traceback (most recent call last):
+  File "D:\tornado服务器\tornado_template\main_server.py", line 22, in <module>
+    tornado.ioloop.IOLoop.instance().start()
+  File "D:\Anaconda\lib\site-packages\tornado\platform\asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 316, in run_forever
+    super().run_forever()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 596, in run_forever
+    self._run_once()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 1854, in _run_once
+    event_list = self._selector.select(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 434, in select
+    self._poll(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 783, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+[2023-03-09 09:21:03,873]-[root]-[INFO]-[main_server.py:<module>():20 Line]:AiServer启动成功!
+[2023-03-09 09:25:14,905]-[root]-[ERROR]-[main_server.py:<module>():24 Line]:Traceback (most recent call last):
+  File "D:\tornado服务器\tornado_template\main_server.py", line 22, in <module>
+    tornado.ioloop.IOLoop.instance().start()
+  File "D:\Anaconda\lib\site-packages\tornado\platform\asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 316, in run_forever
+    super().run_forever()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 596, in run_forever
+    self._run_once()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 1854, in _run_once
+    event_list = self._selector.select(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 434, in select
+    self._poll(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 783, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+[2023-03-09 09:25:16,977]-[root]-[INFO]-[main_server.py:<module>():20 Line]:AiServer启动成功!
+[2023-03-09 09:28:36,096]-[root]-[ERROR]-[main_server.py:<module>():24 Line]:Traceback (most recent call last):
+  File "D:\tornado服务器\tornado_template\main_server.py", line 22, in <module>
+    tornado.ioloop.IOLoop.instance().start()
+  File "D:\Anaconda\lib\site-packages\tornado\platform\asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 316, in run_forever
+    super().run_forever()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 596, in run_forever
+    self._run_once()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 1854, in _run_once
+    event_list = self._selector.select(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 434, in select
+    self._poll(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 783, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+[2023-03-09 09:42:31,587]-[root]-[INFO]-[main_server.py:<module>():20 Line]:AiServer启动成功!
+[2023-03-09 09:49:35,471]-[root]-[ERROR]-[main_server.py:<module>():24 Line]:Traceback (most recent call last):
+  File "D:\tornado服务器\tornado_template\main_server.py", line 22, in <module>
+    tornado.ioloop.IOLoop.instance().start()
+  File "D:\Anaconda\lib\site-packages\tornado\platform\asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 316, in run_forever
+    super().run_forever()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 596, in run_forever
+    self._run_once()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 1854, in _run_once
+    event_list = self._selector.select(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 434, in select
+    self._poll(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 783, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+[2023-03-09 09:49:41,228]-[root]-[INFO]-[main_server.py:<module>():20 Line]:AiServer启动成功!
+[2023-03-09 10:09:28,954]-[root]-[ERROR]-[main_server.py:<module>():24 Line]:Traceback (most recent call last):
+  File "D:\tornado服务器\tornado_template\main_server.py", line 22, in <module>
+    tornado.ioloop.IOLoop.instance().start()
+  File "D:\Anaconda\lib\site-packages\tornado\platform\asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 316, in run_forever
+    super().run_forever()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 596, in run_forever
+    self._run_once()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 1854, in _run_once
+    event_list = self._selector.select(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 434, in select
+    self._poll(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 783, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+[2023-03-09 10:09:37,643]-[root]-[INFO]-[main_server.py:<module>():20 Line]:AiServer启动成功!
+[2023-03-09 10:10:17,091]-[root]-[ERROR]-[main_server.py:<module>():24 Line]:Traceback (most recent call last):
+  File "D:\tornado服务器\tornado_template\main_server.py", line 22, in <module>
+    tornado.ioloop.IOLoop.instance().start()
+  File "D:\Anaconda\lib\site-packages\tornado\platform\asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 316, in run_forever
+    super().run_forever()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 596, in run_forever
+    self._run_once()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 1854, in _run_once
+    event_list = self._selector.select(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 434, in select
+    self._poll(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 783, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+[2023-03-09 10:10:18,362]-[root]-[INFO]-[main_server.py:<module>():20 Line]:AiServer启动成功!
+[2023-03-09 10:10:29,018]-[root]-[ERROR]-[main_server.py:<module>():24 Line]:Traceback (most recent call last):
+  File "D:\tornado服务器\tornado_template\main_server.py", line 22, in <module>
+    tornado.ioloop.IOLoop.instance().start()
+  File "D:\Anaconda\lib\site-packages\tornado\platform\asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 316, in run_forever
+    super().run_forever()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 596, in run_forever
+    self._run_once()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 1854, in _run_once
+    event_list = self._selector.select(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 434, in select
+    self._poll(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 783, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+[2023-03-09 10:10:30,441]-[root]-[INFO]-[main_server.py:<module>():20 Line]:AiServer启动成功!
+[2023-03-09 10:11:51,026]-[root]-[ERROR]-[main_server.py:<module>():24 Line]:Traceback (most recent call last):
+  File "D:\tornado服务器\tornado_template\main_server.py", line 22, in <module>
+    tornado.ioloop.IOLoop.instance().start()
+  File "D:\Anaconda\lib\site-packages\tornado\platform\asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 316, in run_forever
+    super().run_forever()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 596, in run_forever
+    self._run_once()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 1854, in _run_once
+    event_list = self._selector.select(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 434, in select
+    self._poll(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 783, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+[2023-03-09 10:11:56,557]-[root]-[INFO]-[main_server.py:<module>():20 Line]:AiServer启动成功!
+[2023-03-09 10:16:41,648]-[root]-[ERROR]-[main_server.py:<module>():24 Line]:Traceback (most recent call last):
+  File "D:\tornado服务器\tornado_template\main_server.py", line 22, in <module>
+    tornado.ioloop.IOLoop.instance().start()
+  File "D:\Anaconda\lib\site-packages\tornado\platform\asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 316, in run_forever
+    super().run_forever()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 596, in run_forever
+    self._run_once()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 1854, in _run_once
+    event_list = self._selector.select(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 434, in select
+    self._poll(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 783, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+[2023-03-09 10:26:28,398]-[root]-[INFO]-[main_server.py:<module>():20 Line]:AiServer启动成功!
+[2023-03-09 10:39:35,304]-[root]-[ERROR]-[main_server.py:<module>():24 Line]:Traceback (most recent call last):
+  File "D:\tornado服务器\tornado_template\main_server.py", line 22, in <module>
+    tornado.ioloop.IOLoop.instance().start()
+  File "D:\Anaconda\lib\site-packages\tornado\platform\asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 316, in run_forever
+    super().run_forever()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 596, in run_forever
+    self._run_once()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 1854, in _run_once
+    event_list = self._selector.select(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 434, in select
+    self._poll(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 783, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+[2023-03-09 10:40:35,200]-[root]-[INFO]-[main_server.py:<module>():20 Line]:AiServer启动成功!
+[2023-03-09 10:54:10,354]-[root]-[ERROR]-[main_server.py:<module>():24 Line]:Traceback (most recent call last):
+  File "D:\tornado服务器\tornado_template\main_server.py", line 22, in <module>
+    tornado.ioloop.IOLoop.instance().start()
+  File "D:\Anaconda\lib\site-packages\tornado\platform\asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 316, in run_forever
+    super().run_forever()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 596, in run_forever
+    self._run_once()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 1854, in _run_once
+    event_list = self._selector.select(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 434, in select
+    self._poll(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 783, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+[2023-03-09 10:54:14,320]-[root]-[INFO]-[main_server.py:<module>():20 Line]:AiServer启动成功!
+[2023-03-09 10:56:31,402]-[root]-[ERROR]-[main_server.py:<module>():24 Line]:Traceback (most recent call last):
+  File "D:\tornado服务器\tornado_template\main_server.py", line 22, in <module>
+    tornado.ioloop.IOLoop.instance().start()
+  File "D:\Anaconda\lib\site-packages\tornado\platform\asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 316, in run_forever
+    super().run_forever()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 596, in run_forever
+    self._run_once()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 1854, in _run_once
+    event_list = self._selector.select(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 434, in select
+    self._poll(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 783, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+[2023-03-09 10:56:35,558]-[root]-[INFO]-[main_server.py:<module>():20 Line]:AiServer启动成功!
+[2023-03-09 10:58:58,926]-[root]-[ERROR]-[main_server.py:<module>():24 Line]:Traceback (most recent call last):
+  File "D:\tornado服务器\tornado_template\main_server.py", line 22, in <module>
+    tornado.ioloop.IOLoop.instance().start()
+  File "D:\Anaconda\lib\site-packages\tornado\platform\asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 316, in run_forever
+    super().run_forever()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 596, in run_forever
+    self._run_once()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 1854, in _run_once
+    event_list = self._selector.select(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 434, in select
+    self._poll(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 783, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+[2023-03-09 10:59:02,210]-[root]-[INFO]-[main_server.py:<module>():20 Line]:AiServer启动成功!
+[2023-03-09 11:04:41,269]-[root]-[ERROR]-[main_server.py:<module>():24 Line]:Traceback (most recent call last):
+  File "D:\tornado服务器\tornado_template\main_server.py", line 22, in <module>
+    tornado.ioloop.IOLoop.instance().start()
+  File "D:\Anaconda\lib\site-packages\tornado\platform\asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 316, in run_forever
+    super().run_forever()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 596, in run_forever
+    self._run_once()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 1854, in _run_once
+    event_list = self._selector.select(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 434, in select
+    self._poll(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 783, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+[2023-03-09 11:04:44,360]-[root]-[INFO]-[main_server.py:<module>():20 Line]:AiServer启动成功!
+[2023-03-09 11:20:30,584]-[root]-[ERROR]-[main_server.py:<module>():24 Line]:Traceback (most recent call last):
+  File "D:\tornado服务器\tornado_template\main_server.py", line 22, in <module>
+    tornado.ioloop.IOLoop.instance().start()
+  File "D:\Anaconda\lib\site-packages\tornado\platform\asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 316, in run_forever
+    super().run_forever()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 596, in run_forever
+    self._run_once()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 1854, in _run_once
+    event_list = self._selector.select(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 434, in select
+    self._poll(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 783, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+[2023-03-09 17:25:07,979]-[root]-[INFO]-[main_server.py:<module>():20 Line]:AiServer启动成功!
+[2023-03-09 18:10:38,540]-[root]-[ERROR]-[main_server.py:<module>():24 Line]:Traceback (most recent call last):
+  File "D:\tornado服务器\tornado_template\main_server.py", line 22, in <module>
+    tornado.ioloop.IOLoop.instance().start()
+  File "D:\Anaconda\lib\site-packages\tornado\platform\asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 316, in run_forever
+    super().run_forever()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 596, in run_forever
+    self._run_once()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 1854, in _run_once
+    event_list = self._selector.select(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 434, in select
+    self._poll(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 783, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+[2023-03-09 18:24:42,484]-[root]-[INFO]-[main_server.py:<module>():20 Line]:AiServer启动成功!
+[2023-03-09 18:32:28,866]-[root]-[ERROR]-[main_server.py:<module>():24 Line]:Traceback (most recent call last):
+  File "D:\tornado服务器\tornado_template\main_server.py", line 22, in <module>
+    tornado.ioloop.IOLoop.instance().start()
+  File "D:\Anaconda\lib\site-packages\tornado\platform\asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 316, in run_forever
+    super().run_forever()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 596, in run_forever
+    self._run_once()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 1854, in _run_once
+    event_list = self._selector.select(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 434, in select
+    self._poll(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 783, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+[2023-03-09 19:33:47,371]-[root]-[INFO]-[main_server.py:<module>():20 Line]:AiServer启动成功!
+[2023-03-09 19:36:39,765]-[root]-[ERROR]-[main_server.py:<module>():24 Line]:Traceback (most recent call last):
+  File "D:\tornado服务器\tornado_template\main_server.py", line 22, in <module>
+    tornado.ioloop.IOLoop.instance().start()
+  File "D:\Anaconda\lib\site-packages\tornado\platform\asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 316, in run_forever
+    super().run_forever()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 596, in run_forever
+    self._run_once()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 1854, in _run_once
+    event_list = self._selector.select(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 434, in select
+    self._poll(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 783, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+[2023-03-09 19:36:43,154]-[root]-[INFO]-[main_server.py:<module>():20 Line]:AiServer启动成功!
+[2023-03-09 19:37:46,587]-[root]-[ERROR]-[main_server.py:<module>():24 Line]:Traceback (most recent call last):
+  File "D:\tornado服务器\tornado_template\main_server.py", line 22, in <module>
+    tornado.ioloop.IOLoop.instance().start()
+  File "D:\Anaconda\lib\site-packages\tornado\platform\asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 316, in run_forever
+    super().run_forever()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 596, in run_forever
+    self._run_once()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 1854, in _run_once
+    event_list = self._selector.select(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 434, in select
+    self._poll(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 783, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+[2023-03-09 19:37:51,734]-[root]-[INFO]-[main_server.py:<module>():20 Line]:AiServer启动成功!
+[2023-03-09 19:46:01,365]-[root]-[ERROR]-[main_server.py:<module>():24 Line]:Traceback (most recent call last):
+  File "D:\tornado服务器\tornado_template\main_server.py", line 22, in <module>
+    tornado.ioloop.IOLoop.instance().start()
+  File "D:\Anaconda\lib\site-packages\tornado\platform\asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 316, in run_forever
+    super().run_forever()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 596, in run_forever
+    self._run_once()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 1854, in _run_once
+    event_list = self._selector.select(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 434, in select
+    self._poll(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 783, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+[2023-03-09 19:46:32,177]-[root]-[INFO]-[main_server.py:<module>():20 Line]:AiServer启动成功!
+[2023-03-09 19:49:10,844]-[root]-[ERROR]-[main_server.py:<module>():24 Line]:Traceback (most recent call last):
+  File "D:\tornado服务器\tornado_template\main_server.py", line 22, in <module>
+    tornado.ioloop.IOLoop.instance().start()
+  File "D:\Anaconda\lib\site-packages\tornado\platform\asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 316, in run_forever
+    super().run_forever()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 596, in run_forever
+    self._run_once()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 1854, in _run_once
+    event_list = self._selector.select(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 434, in select
+    self._poll(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 783, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+[2023-03-09 19:49:14,731]-[root]-[INFO]-[main_server.py:<module>():20 Line]:AiServer启动成功!
+[2023-03-09 19:51:51,687]-[root]-[ERROR]-[main_server.py:<module>():24 Line]:Traceback (most recent call last):
+  File "D:\tornado服务器\tornado_template\main_server.py", line 22, in <module>
+    tornado.ioloop.IOLoop.instance().start()
+  File "D:\Anaconda\lib\site-packages\tornado\platform\asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 316, in run_forever
+    super().run_forever()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 596, in run_forever
+    self._run_once()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 1854, in _run_once
+    event_list = self._selector.select(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 434, in select
+    self._poll(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 783, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+[2023-03-09 19:53:33,286]-[root]-[INFO]-[main_server.py:<module>():20 Line]:AiServer启动成功!
+[2023-03-09 19:54:46,146]-[root]-[ERROR]-[main_server.py:<module>():24 Line]:Traceback (most recent call last):
+  File "D:\tornado服务器\tornado_template\main_server.py", line 22, in <module>
+    tornado.ioloop.IOLoop.instance().start()
+  File "D:\Anaconda\lib\site-packages\tornado\platform\asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 316, in run_forever
+    super().run_forever()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 596, in run_forever
+    self._run_once()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 1854, in _run_once
+    event_list = self._selector.select(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 434, in select
+    self._poll(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 783, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+[2023-03-09 20:03:20,941]-[root]-[INFO]-[main_server.py:<module>():20 Line]:AiServer启动成功!
+[2023-03-09 20:07:05,235]-[root]-[ERROR]-[main_server.py:<module>():24 Line]:Traceback (most recent call last):
+  File "D:\tornado服务器\tornado_template\main_server.py", line 22, in <module>
+    tornado.ioloop.IOLoop.instance().start()
+  File "D:\Anaconda\lib\site-packages\tornado\platform\asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 316, in run_forever
+    super().run_forever()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 596, in run_forever
+    self._run_once()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 1854, in _run_once
+    event_list = self._selector.select(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 434, in select
+    self._poll(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 783, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+[2023-03-09 20:07:08,046]-[root]-[INFO]-[main_server.py:<module>():20 Line]:AiServer启动成功!
+[2023-03-09 20:09:42,457]-[root]-[ERROR]-[main_server.py:<module>():24 Line]:Traceback (most recent call last):
+  File "D:\tornado服务器\tornado_template\main_server.py", line 22, in <module>
+    tornado.ioloop.IOLoop.instance().start()
+  File "D:\Anaconda\lib\site-packages\tornado\platform\asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 316, in run_forever
+    super().run_forever()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 596, in run_forever
+    self._run_once()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 1854, in _run_once
+    event_list = self._selector.select(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 434, in select
+    self._poll(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 783, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+

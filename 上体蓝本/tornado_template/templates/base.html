@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>上体蓝本</title>
+    <script src="../static/js/jquery-3.6.3.min.js"></script>
+    <script >document.addEventListener('DOMContentLoaded',function(event){
+    document.addEventListener('selectstart',function(event){
+        event.preventDefault();
+    })
+    document.addEventListener('contextmenu',function(event){
+        event.preventDefault();
+    })
+    var random_box=document.querySelector('.random');
+    var btn=document.querySelector('.reset');
+    var wirte=document.querySelector('.write');
+    function random(min,max){
+         return Math.floor(Math.random()*(max-min+1))+min;
+    }
+    btn.addEventListener('click',function(){
+        btn.style.backgroundColor='#fff';
+        window.setTimeout(function(event){
+            btn.style.backgroundColor='rgb(255, 224, 146)';
+        },50)
+        var randoms=random(1000,9999);
+        console.log(randoms);
+        random_box.innerHTML=randoms;
+    })
+})
+$(function(){
+      $('.change-register-button').on('click',function(){
+            $('.login').animate(
+                {
+                    'left':'240px'
+                },400,function(){
+                    $('.login').css({'display':'none',
+                                          'left':'60px'})
+                    $('.change-register-box').css('display','none')
+                    $('.register').css('display','block')
+                    $('.change-login-box').css('display','block')
+                }
+            )
+      })
+      $('.change-login-button').on('click',function(){
+        $('.register').animate(
+            {
+                'right':'240px'
+            },400,function(){
+                $('.register').css({'display':'none',
+                                            'right':'60px'})
+                $('.change-login-box').css('display','none')
+                $('.login').css('display','block')
+                $('.change-register-box').css('display','block')
+            }
+        )
+  })
+})
+function login(){
+				//得到name输入框对象
+				var stunumber = document.getElementById("stunumber");
+				//判断输入框是否有内容
+				if(stunumber.value.length==0){
+					confirm("请输入学号");
+					return false;
+				}
+				var name= document.getElementById("name");
+				if(name.value.length==0){
+					confirm("请输入姓名");
+					return false;
+				}
+				var college=document.getElementById("college");
+				if(college.value.length==0){
+				    confirm("请输入学院");
+				    return false;
+				    }
+				var password=document.getElementById("password");
+				if(password.value.length==0){
+				   confirm("请输入密码");
+				   return false;
+				   }
+				return true;
+			}
+			function register(){
+				//得到name输入框对象
+				var stunumber2 = document.getElementById("stunumber2");
+				//判断输入框是否有内容
+				if(stunumber2.value.length==0){
+					confirm("请输入学号");
+					return false;
+				}
+				var name2= document.getElementById("name2");
+				if(name2.value.length==0){
+					confirm("请输入姓名");
+					return false;
+				}
+				var college2=document.getElementById("college2");
+				if(college2.value.length==0){
+				    confirm("请输入学院");
+				    return false;
+				    }
+				var password2=document.getElementById("password2");
+				if(password2.value.length==0){
+				   confirm("请输入密码");
+				   return false;
+				   }
+				 confirm("注册成功");
+				 return ture;
+			}
+
+</script>
+
+    <style>
+        body{
+    background: url(../static/image/c0aee1f2d2fa5de609571233768fa48.jpg);
+    background-size: 110% ,110%;
+}
+.background{
+   border-radius:40px;
+     width: 900px;
+     height: 400px;
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     transform: translate(-50%,-50%);
+     background-color: rgba(10, 10, 10, 0.598);
+}
+/* 登录框 */
+.login{
+   border-radius:40px;
+    position: absolute;
+    top: -12%;
+    left: 60px;
+    width: 600px;
+    height: 500px;
+    background-color: rgb(249, 249, 249,0.3);
+    z-index: 10;
+    box-shadow: 0 0 12px 0.6px rgb(106, 106, 106);
+    /* display: none; */
+}
+.login-value{
+    width: 600px;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(255, 108, 108);
+    padding-left: 40px;
+    margin-top: 40px;
+}
+.login-button{
+ position: absolute;
+border-radius:40px;
+margin-top:40px;
+padding-left:20px;
+    bottom: 50px;
+    right: 100px;
+     width: 440px;
+     height: 60px;
+     border: none;
+     background-image:  linear-gradient(to right, #a6c1ee, #fbc2eb);;
+     font-size: 20px ;
+     font-weight: bold;
+     letter-spacing: 10px;
+     color: rgb(255, 255, 255);
+     text-shadow: 1px 1px 1px rgb(138, 138, 138);
+}
+.login-button:hover{
+    background-color: rgb(199, 38, 38);
+}
+/* 切换注册框的盒子 */
+.change-register-box{
+border-radius:40px;
+    position: absolute;
+    right: 0px;
+    width: 240px;
+    height: 400px;
+    background-color: transparent;
+    /* display: none; */
+}
+.a{
+    position: absolute;
+    top: 90px;
+    left: 62px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.846);
+    letter-spacing: 2px;
+}
+.b{
+    position: absolute;
+    top: 140px;
+    left: 46px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.858);
+    letter-spacing: 2px;
+}
+.change-register-button{
+border-radius:40px;
+      position: absolute;
+      left: 46px;
+      bottom: 120px;
+      width: 140px;
+      height: 50px;
+      border: 1.5px solid #fff;
+      background-color: transparent;
+      letter-spacing: 2px;
+      color: #fff;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 5px;
+}
+.change-register-button:hover{
+    border: 1.5px solid rgb(217, 217, 217);
+    color: rgb(217, 217, 217);
+}
+/* 注册框 */
+.register{
+border-radius:40px;
+    position: absolute;
+    top: -12%;
+    right: 60px;
+    width: 600px;
+    height: 500px;
+    background-color: rgb(249, 249, 249,0.3);
+    display: none;
+    z-index: 10;
+    box-shadow: 0 0 12px 0.6px rgb(106, 106, 106);
+}
+
+.change-login-box{
+    position: absolute;
+    left: 0;
+    width: 240px;
+    height: 400px;
+    background-color: transparent;
+    display: none;
+}
+.signup-value{
+border-radius:40px;
+    width: 600px;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(255, 108, 108);
+    padding-left: 40px;
+    margin-top: 30px;
+}
+.signup-num{
+
+    width: 485px;
+    height: 50px;
+    outline: none;
+    margin-top: -18px;
+    margin-left: 60px;
+    box-sizing: border-box;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid rgb(182, 182, 182);
+    background-color: transparent;
+    font-size: 20px;
+    color: grey;
+}
+.input-item{
+    width: 400px;
+    height: 40px;
+    outline: none;
+    margin-top: 15px;
+    margin-left: 60px;
+    box-sizing: border-box;
+    border-radius:20px;
+
+    border-bottom: 1px solid rgb(0, 0, 0);
+    background-color: transparent;
+    font-size: 30px;
+    font-color: black;
+}
+.signup-repwd{
+    width: 485px;
+    height: 50px;
+    outline: none;
+    margin-top: 15px;
+    margin-left: 60px;
+    box-sizing: border-box;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid rgb(182, 182, 182);
+    background-color: transparent;
+    font-size: 20px;
+    color: grey;
+}
+
+
+.signup-button{
+   border-radius:40px;
+    position: absolute;
+    bottom: 60px;
+    right: 100px;
+     width: 440px;
+     height: 60px;
+     border: 2px;
+     background-image:  linear-gradient(to right, #a6c1ee, #fbc2eb);;
+     font-size: 20px ;
+     font-weight: bold;
+     letter-spacing: 15px;
+     color: rgb(255, 255, 255);
+     text-shadow: 1px 1px 1px rgb(138, 138, 138);
+}
+
+.c{
+    position: absolute;
+    top: 90px;
+    left: 79px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.846);
+    letter-spacing: 2px;
+}
+.d{
+    position: absolute;
+    top: 170px;
+    left: 60px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.858);
+    letter-spacing: 2px;
+}
+.change-login-button{
+
+      position: absolute;
+      left: 46px;
+      bottom: 120px;
+      width: 140px;
+      height: 50px;
+      border: 1.5px solid #fff;
+      background-color: transparent;
+      letter-spacing: 2px;
+      color: #fff;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 5px;
+}
+.change-login-button:hover{
+    border: 1.5px solid rgb(217, 217, 217);
+    color: rgb(217, 217, 217);
+}
+input::-webkit-input-placeholder {
+        color: #aab2bd;
+        font-size:21;
+
+    }
+
+#errormessage{
+    color:#ff0000;
+}
+}
+    </style>
+</head>
+<body>
+     <div class="background">
+<!-- 登录 -->
+            <div class="login">
+                  <p class="login-value">上体蓝本</p>
+
+                <form method="post" action="/login" onsubmit="return login()">
+                <input type="text" name="stunumber" placeholder="学号" class="input-item" id="stunumber" >
+                <input type="text" name="name" placeholder="姓名" class="input-item" id="name">
+                  <input type="text" name="college" placeholder="学院" class="input-item" list="typelist1" id="college">
+                        <datalist id="typelist1">
+　　                     <option>体育教育训练学院</option>
+　　                     <option>武术学院</option>
+                             <option>休闲学院</option>
+                             <option>传媒与艺术学院</option>
+                             <option>运动科学学院</option>
+                             <option>经济管理学院</option>
+                             <option>心理学院</option>
+                             <option>国际教育学院</option>
+                       </datalist>
+                  <input type="password" name="password" placeholder="密码" class="input-item" id="password" >
+                     <input class="login-button" value="登入" type="submit" >
+                </form>
+            </div>
+         <div id="errormessage"></div>
+            <div class="change-register-box">
+               <p class="b">点击注册账户</p>
+                 <button class="change-register-button">SIGN UP &nbsp;></button>
+            </div>
+<!-- 注册 -->
+            <div class="register">
+               <p class="signup-value">上体蓝本</p>
+               <form action="/register" method="post" onsubmit="return register()">
+                   <input type="text" name="stunumber" placeholder="学号" class="input-item" id="stunumber2">
+                <input type="text" name="name" placeholder="姓名" class="input-item" id="name2">
+                  <input type="text" name="college" placeholder="学院" class="input-item" list="typelist2" id="college2" >
+                        <datalist id="typelist2">
+　　                     <option>体育教育训练学院</option>
+　　                     <option>武术学院</option>
+                             <option>休闲学院</option>
+                             <option>传媒与艺术学院</option>
+                             <option>运动科学学院</option>
+                             <option>经济管理学院</option>
+                             <option>心理学院</option>
+                             <option>国际教育学院</option>
+                       </datalist>
+                     <input type="password" name="password" placeholder="密码" class="input-item" id="password2">
+                      <input type="submit" value="注册" class="signup-button">
+               </form>
+           </div>
+           <div class="change-login-box">
+                 <p class="d">登陆</p>
+                 <button class="change-login-button"><&nbsp; LOG IN</button>
+           </div>
+     </div>
+</body>
+</html>
+
+
+

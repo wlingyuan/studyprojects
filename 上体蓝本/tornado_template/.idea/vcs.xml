@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/OpenProject/Chinese_license_plate_detection_recognition" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/OpenProject/Meter" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/OpenProject/MeterReadV2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/OpenProject/PaddleDetection" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/OpenProject/PaddleOCR" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/OpenProject/PaddleX" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/OpenProject/SIFT-and-Hough-for-multi-type-pointer-meter-reading" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/OpenProject/aioredis-py" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/OpenProject/dlib" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/OpenProject/face_recognition" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/OpenProject/meter_without_gui" vcs="Git" />
+  </component>
+</project>

@@ -1,0 +1,141 @@
+[2023-03-01 10:54:37,229]-[root]-[ERROR]-[main_server.py:<module>():24 Line]:Traceback (most recent call last):
+  File "D:\tornado服务器\tornado_template\main_server.py", line 12, in <module>
+    ws_app = Application()
+  File "D:\tornado服务器\tornado_template\Router\router.py", line 12, in __init__
+    (r'/create_qrcode', index_handler),
+NameError: name 'index_handler' is not defined
+
+[2023-03-01 16:52:24,702]-[root]-[ERROR]-[main_server.py:<module>():24 Line]:Traceback (most recent call last):
+  File "D:\tornado服务器\tornado_template\main_server.py", line 12, in <module>
+    ws_app = Application()
+  File "D:\tornado服务器\tornado_template\Router\router.py", line 16, in __init__
+    (r'/index_handler', IndexPageHandler),
+NameError: name 'IndexPageHandler' is not defined
+
+[2023-03-01 19:40:08,081]-[root]-[ERROR]-[main_server.py:<module>():23 Line]:Traceback (most recent call last):
+  File "D:\tornado服务器\tornado_template\main_server.py", line 18, in <module>
+    server.listen(server_port, address=server_ip)
+  File "D:\Anaconda\lib\site-packages\tornado\tcpserver.py", line 151, in listen
+    sockets = bind_sockets(port, address=address)
+  File "D:\Anaconda\lib\site-packages\tornado\netutil.py", line 161, in bind_sockets
+    sock.bind(sockaddr)
+OSError: [WinError 10049] 在其上下文中，该请求的地址无效。
+
+[2023-03-01 19:46:16,535]-[root]-[ERROR]-[main_server.py:<module>():23 Line]:Traceback (most recent call last):
+  File "D:\tornado服务器\tornado_template\main_server.py", line 18, in <module>
+    server.listen(server_port, address=server_ip)
+  File "D:\Anaconda\lib\site-packages\tornado\tcpserver.py", line 151, in listen
+    sockets = bind_sockets(port, address=address)
+  File "D:\Anaconda\lib\site-packages\tornado\netutil.py", line 161, in bind_sockets
+    sock.bind(sockaddr)
+OSError: [WinError 10049] 在其上下文中，该请求的地址无效。
+
+[2023-03-01 19:51:00,893]-[root]-[ERROR]-[main_server.py:<module>():23 Line]:Traceback (most recent call last):
+  File "D:\tornado服务器\tornado_template\main_server.py", line 18, in <module>
+    server.listen(server_port, address=server_ip)
+  File "D:\Anaconda\lib\site-packages\tornado\tcpserver.py", line 151, in listen
+    sockets = bind_sockets(port, address=address)
+  File "D:\Anaconda\lib\site-packages\tornado\netutil.py", line 161, in bind_sockets
+    sock.bind(sockaddr)
+OSError: [WinError 10049] 在其上下文中，该请求的地址无效。
+
+[2023-03-01 19:51:06,821]-[root]-[ERROR]-[main_server.py:<module>():23 Line]:Traceback (most recent call last):
+  File "D:\tornado服务器\tornado_template\main_server.py", line 18, in <module>
+    server.listen(server_port, address=server_ip)
+  File "D:\Anaconda\lib\site-packages\tornado\tcpserver.py", line 151, in listen
+    sockets = bind_sockets(port, address=address)
+  File "D:\Anaconda\lib\site-packages\tornado\netutil.py", line 161, in bind_sockets
+    sock.bind(sockaddr)
+OSError: [WinError 10049] 在其上下文中，该请求的地址无效。
+
+[2023-03-01 19:53:13,263]-[root]-[INFO]-[main_server.py:<module>():19 Line]:AiServer启动成功!
+[2023-03-01 19:53:54,039]-[root]-[ERROR]-[main_server.py:<module>():23 Line]:Traceback (most recent call last):
+  File "D:\tornado服务器\tornado_template\main_server.py", line 21, in <module>
+    tornado.ioloop.IOLoop.instance().start()
+  File "D:\Anaconda\lib\site-packages\tornado\platform\asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 316, in run_forever
+    super().run_forever()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 596, in run_forever
+    self._run_once()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 1854, in _run_once
+    event_list = self._selector.select(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 434, in select
+    self._poll(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 783, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+[2023-03-01 20:12:31,253]-[root]-[INFO]-[main_server.py:<module>():19 Line]:AiServer启动成功!
+[2023-03-01 20:22:20,550]-[root]-[ERROR]-[main_server.py:<module>():23 Line]:Traceback (most recent call last):
+  File "D:\tornado服务器\tornado_template\main_server.py", line 21, in <module>
+    tornado.ioloop.IOLoop.instance().start()
+  File "D:\Anaconda\lib\site-packages\tornado\platform\asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 316, in run_forever
+    super().run_forever()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 596, in run_forever
+    self._run_once()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 1854, in _run_once
+    event_list = self._selector.select(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 434, in select
+    self._poll(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 783, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+[2023-03-01 20:22:57,452]-[root]-[INFO]-[main_server.py:<module>():19 Line]:AiServer启动成功!
+[2023-03-01 20:25:30,824]-[root]-[ERROR]-[main_server.py:<module>():23 Line]:Traceback (most recent call last):
+  File "D:\tornado服务器\tornado_template\main_server.py", line 21, in <module>
+    tornado.ioloop.IOLoop.instance().start()
+  File "D:\Anaconda\lib\site-packages\tornado\platform\asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 316, in run_forever
+    super().run_forever()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 596, in run_forever
+    self._run_once()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 1854, in _run_once
+    event_list = self._selector.select(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 434, in select
+    self._poll(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 783, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+[2023-03-01 23:36:40,168]-[root]-[INFO]-[main_server.py:<module>():19 Line]:AiServer启动成功!
+[2023-03-01 23:40:43,386]-[root]-[ERROR]-[main_server.py:<module>():23 Line]:Traceback (most recent call last):
+  File "D:\tornado服务器\tornado_template\main_server.py", line 21, in <module>
+    tornado.ioloop.IOLoop.instance().start()
+  File "D:\Anaconda\lib\site-packages\tornado\platform\asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 316, in run_forever
+    super().run_forever()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 596, in run_forever
+    self._run_once()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 1854, in _run_once
+    event_list = self._selector.select(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 434, in select
+    self._poll(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 783, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+[2023-03-01 23:42:34,292]-[root]-[INFO]-[main_server.py:<module>():19 Line]:AiServer启动成功!
+[2023-03-01 23:53:57,303]-[root]-[ERROR]-[main_server.py:<module>():23 Line]:Traceback (most recent call last):
+  File "D:\tornado服务器\tornado_template\main_server.py", line 21, in <module>
+    tornado.ioloop.IOLoop.instance().start()
+  File "D:\Anaconda\lib\site-packages\tornado\platform\asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 316, in run_forever
+    super().run_forever()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 596, in run_forever
+    self._run_once()
+  File "D:\Anaconda\lib\asyncio\base_events.py", line 1854, in _run_once
+    event_list = self._selector.select(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 434, in select
+    self._poll(timeout)
+  File "D:\Anaconda\lib\asyncio\windows_events.py", line 783, in _poll
+    status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+KeyboardInterrupt
+
+[2023-03-01 23:59:57,384]-[root]-[INFO]-[main_server.py:<module>():19 Line]:AiServer启动成功!

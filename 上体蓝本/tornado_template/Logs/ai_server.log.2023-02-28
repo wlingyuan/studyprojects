@@ -1,0 +1,14 @@
+[2023-02-28 20:00:02,668]-[root]-[ERROR]-[main_server.py:<module>():22 Line]:Traceback (most recent call last):
+  File "D:\tornado服务器\tornado_template\main_server.py", line 12, in <module>
+    ws_app = Application()
+  File "D:\tornado服务器\tornado_template\Router\router.py", line 11, in __init__
+    (r'/test', IndexPageHandler),
+NameError: name 'IndexPageHandler' is not defined
+
+[2023-02-28 20:01:02,345]-[root]-[ERROR]-[main_server.py:<module>():22 Line]:Traceback (most recent call last):
+  File "D:\tornado服务器\tornado_template\main_server.py", line 12, in <module>
+    ws_app = Application()
+  File "D:\tornado服务器\tornado_template\Router\router.py", line 11, in __init__
+    (r'/test', IndexPageHandler),
+NameError: name 'IndexPageHandler' is not defined
+

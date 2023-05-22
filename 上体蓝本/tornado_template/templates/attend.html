@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>参加蓝本活动</title>
+    <style>
+       * {
+            margin: 0;
+            padding: 0;
+        }
+        html {
+            height: 100%;
+        }
+        body {
+            height: 100%;
+               background:url("../static/image/微信图片_20230313195805.png") center ;
+        }
+        .container {
+            height: 100%;
+
+        }
+        .login-wrapper {
+            background-color: rgba(255,255,255,0.4) ;
+            width: 358px;
+            height: 588px;
+            border-radius: 15px;
+            padding: 0 50px;
+            position: relative;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .header {
+            font-size: 38px;
+            font-weight: bold;
+            text-align: center;
+            line-height: 200px;
+        }
+        .input-item {
+            display: block;
+            width: 100%;
+            margin-top:20px;
+            margin-bottom: 20px;
+            border-radius: 20px;
+            padding: 10px;
+            border-bottom: 1px solid rgb(128, 125, 125);
+            font-size: 15px;
+            outline: none;
+        }
+        .input-item:placeholder {
+            text-transform: uppercase;
+        }
+        .btn {
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+            margin-top: 40px;
+            background-image: linear-gradient(to right, #a6c1ee, #fbc2eb);
+            border-radius:40px;
+            color: #000;
+        }
+        .msg {
+            text-align: center;
+            line-height: 88px;
+        }
+        a {
+            text-decoration-line: none;
+            color: #abc1ee;
+        }
+       </style>
+    <script>
+        function attend(){
+				//得到name输入框对象
+				var acnumber = document.getElementById("acnumber");
+				//判断输入框是否有内容
+				if(acnumber.value.length==0){
+					confirm("请输入活动编号");
+					return false;
+				}
+				var name= document.getElementById("stunumber");
+				if(stunumber.value.length==0){
+					confirm("请输入姓名");
+					return false;
+				}
+				var name=document.getElementById("name");
+				if(name.value.length==0){
+				    confirm("请输入姓名");
+				    return false;
+				    }
+				var col=document.getElementById("col");
+				if(col.value.length==0){
+				   confirm("请输入活动所属蓝本栏目");
+				   return false;
+				   }
+				confirm("成功参加活动");
+			}
+    </script>
+</head>
+<body>
+<div class="container">
+        <div class="login-wrapper">
+            <div class="header">参加蓝本活动</div>
+            <div class="form-wrapper">
+              <form method="post" action="/attend" onsubmit="return attend()">
+               <input type="text" name="acnumber" placeholder="活动编号" class="input-item" id="acnumber">
+                  <input type="text" name="stunumber" placeholder="学号" class="input-item" id="stunumber" >
+                  <input type="text" name="name" placeholder="姓名" class="input-item"  id="name">
+                   <input type="text" name="col" placeholder="活动所属蓝本栏目" class="input-item" list="typelist" id="col" >
+                  <datalist id="typelist">
+　　                     <option>思想品德的与道德实践</option>
+　　                     <option>社会实践与志愿服务</option>
+                             <option>科学研究与创新能力</option>
+                             <option>人文艺术修养与身心发展</option>
+                             <option>社团活动与社会工作</option>
+                             <option>技能培训</option>
+                       </datalist>
+                      <input class="btn" value="参加" type="submit">
+                     </form>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

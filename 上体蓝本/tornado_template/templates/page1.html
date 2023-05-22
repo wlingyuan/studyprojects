@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>上体蓝本</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <style scr="../static/js/jquery-3.6.3.min.js"></style>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="../static/css/swiper-bundle.css">
+
+    <!-- Demo styles -->
+    <style>
+    html, body {
+        position: relative;
+        height: 100%;
+    }
+    body {
+        background: 000;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color:#000;
+        margin: 0;
+        padding: 0;
+    }
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+        background: #000;
+    }
+    .swiper-slide {
+        font-size: 18px;
+        color:#fff;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 40px 60px;
+
+    }
+    .parallax-bg {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 130%;
+        height: 100%;
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position: center;
+
+    }
+    .swiper-slide .title {
+     margin-left:1000px;
+     margin-top:1000px
+        font-size: 30px;
+        font-weight: 300;
+        height:100px;
+        weight:100px;
+        border-radius:20px;
+<!--        margin-left:4000px;-->
+
+    }
+
+
+    .swiper-slide .text1 {
+      border-radius:20px;
+        font-size: 14px;
+        max-width: 1000px;
+        line-height: 1.3;
+        width:600px;
+        height:600px;
+        margin-left:350px;
+      background:url(../static/image/参加蓝本活动.jpg) center no-repeat;
+      background-size:100% 100%;
+      background-attachment:fixed;
+    }
+    .swiper-slide .text2 {
+         border-radius:20px;
+        font-size: 14px;
+        max-width: 1000px;
+        line-height: 1.3;
+        width:600px;
+        height:600px;
+        margin-left:350px;
+      background:url(../static/image/发布蓝本活动.jpg) center  ;
+      background-size:100% 100%;
+      background-attachment:fixed;
+    }
+    .swiper-slide .text3 {
+       border-radius:20px;
+        font-size: 14px;
+        max-width: 1000px;
+        line-height: 1.3;
+        width:600px;
+        height:600px;
+        margin-left:350px;
+      background:url(../static/image/查看蓝本活动.jpg) center no-repeat;
+      background-size:100% 100%;
+      background-attachment:fixed;
+    }
+    .swiper-slide .text4 {
+      border-radius:20px;
+        font-size: 14px;
+        max-width: 1000px;
+        line-height: 1.3;
+        width:600px;
+        height:600px;
+        margin-left:350px;
+      background:url(../static/image/蓝本分数查询.jpg) center ;
+      background-size:100% 100%;
+      background-attachment:fixed;
+      }
+      .login-button{
+
+  border-radius:40px;
+  margin-top:530px;
+  margin-left:80px;
+  padding-left:20px;
+    bottom: 50px;
+    right: 100px;
+     width: 440px;
+     height: 60px;
+     border: none;
+     background-image:  linear-gradient(to right, #a6c1ee, #fbc2eb);;
+     font-size: 20px ;
+     font-weight: bold;
+     letter-spacing: 10px;
+     color: rgb(255, 255, 255);
+   text-shadow: 1px 1px 1px rgb(138, 138, 138);
+}
+    }
+    </style>
+</head>
+<body>
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="parallax-bg" style="background-image:url(../static/image/522c32434239692d7d22ea83cb9ec8a.jpg)" data-swiper-parallax="-23%"></div>
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="text1">
+                  <form method="get" action="/attend">
+                  <input class="login-button" value="点击进入" type="submit">
+                     </form>
+              </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="text2">
+                 <form method="get" action="/release">
+               <input class="login-button" value="点击进入" type="submit">
+                     </form>
+                    </div>
+            </div>
+            <div class="swiper-slide">
+                 <div class="text3">
+                     <form method="get" action="/view">
+               <input class="login-button" value="点击进入" type="submit">
+                     </form>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="text4">
+                <form method="get" action="/inquire">
+               <input class="login-button" value="点击进入" type="submit">
+                     </form>
+                </div>
+        </div>
+            </div>
+        <!-- Add Pagination -->
+         <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+    <!-- Swiper JS -->
+    <script src="../static/js/swiper-bundle.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        autoplay: {
+          delay: 2000,
+          disableOnInteraction: false,
+        },
+         navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+    });
+    </script>
+</body>
+</html>

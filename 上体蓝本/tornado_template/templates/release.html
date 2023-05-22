@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>发布蓝本活动</title>
+    <style>
+    * {
+            margin: 0;
+            padding: 0;
+        }
+        html {
+            height: 100%;
+        }
+        body {
+            height: 100%;
+        }
+        .container {
+            height: 100%;
+             background:url("../static/image/微信图片_20230313195805.png") center
+        }
+        .login-wrapper {
+          background-color: rgba(255,255,255,0.4);
+            width: 358px;
+            height: 588px;
+            border-radius: 15px;
+            padding: 0 50px;
+            position: relative;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .header {
+            font-size: 38px;
+            font-weight: bold;
+            text-align: center;
+            line-height: 200px;
+        }
+        .input-item {
+            display: block;
+            width: 100%;
+            margin-bottom: 20px;
+            border-radius: 20px;
+            padding: 10px;
+            border-bottom: 1px solid rgb(128, 125, 125);
+            font-size: 15px;
+            outline: none;
+        }
+        .input-item:placeholder {
+            text-transform: uppercase;
+        }
+        .btn {
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+            margin-top: 40px;
+            background-image: linear-gradient(to right, #a6c1ee, #fbc2eb);
+            border-radius:40px;
+            color: #000;
+        }
+        .msg {
+            text-align: center;
+            line-height: 88px;
+        }
+        a {
+            text-decoration-line: none;
+            color: #abc1ee;
+        }
+    </style>
+    <script>
+        function release()
+        {
+	     	//得到name输入框对象
+				var acname = document.getElementById("acname");
+				//判断输入框是否有内容
+				if(acname.value.length==0){
+					confirm("请输入活动名称");
+					return false;
+				}
+				var number= document.getElementById("number");
+				if(number.value.length==0){
+					confirm("请输入活动分数");
+					return false;
+				}
+				var col=document.getElementById("col");
+				if(col.value.length==0){
+				    confirm("请输入活动蓝本栏目");
+				    return false;
+				   }
+				confirm("成功发布活动");
+			}
+    </script>
+</head>
+<body>
+ <div class="container">
+        <div class="login-wrapper">
+            <div class="header">发布蓝本活动</div>
+            <div class="form-wrapper">
+              <form method="post" action="/release" onsubmit="return release()">
+                <input type="text" name="acname" placeholder="活动名称" class="input-item" id="acname">
+                  <input type="number" name=score placeholder="活动加分数" class="input-item" id="number" >
+                   <input type="text" name="col" placeholder="活动所属蓝本栏目" class="input-item" list="typelist" id="col">
+                  <datalist id="typelist">
+　　                     <option>思想品德的与道德实践</option>
+　　                     <option>社会实践与志愿服务</option>
+                             <option>科学研究与创新能力</option>
+                             <option>人文艺术修养与身心发展</option>
+                             <option>社团活动与社会工作</option>
+                             <option>技能培训</option>
+                       </datalist>
+<!--                  <form method="get" action="/release">-->
+                      <input class="btn" value="发布" type="submit">
+<!--                  </form>-->
+
+          </form>
+                </div>
+</body>
+</html>
