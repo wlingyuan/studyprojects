@@ -1,3 +1,3 @@
 # studyprojects
-a repository for my  study projects 
+collection of my study projects 
 
