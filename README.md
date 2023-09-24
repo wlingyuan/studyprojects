@@ -1,3 +1,3 @@
 # studyprojects
-collection of my study projects 。。
+collection of my study projects 。
 
